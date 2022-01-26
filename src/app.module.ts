@@ -8,7 +8,7 @@ import {ConfigModule} from '@nestjs/config'
     providers: [],
     imports: [
         ConfigModule.forRoot({
-            envFilePath: '.env'
+            envFilePath: process.env.NODE_ENV?`.env.${process.env.NODE_ENV}`:`.env`
         }),
         SequelizeModule.forRoot({
             dialect: 'postgres',

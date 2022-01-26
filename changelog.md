@@ -13,3 +13,5 @@ nest generate controller users
 nest generate service users
 
 npm i @nestjs/config
+
+npm i cross-env
