@@ -11,3 +11,5 @@ npm install --save-dev @types/sequelize
 nest generate module users
 nest generate controller users
 nest generate service users
+
+npm i @nestjs/config
