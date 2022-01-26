@@ -1,0 +1,2 @@
+В этом ролике мы реализуем масштабируемый backend на node js с использованием фреймворка Nest js. В качестве СУБД воспользуемся PostgreSQL в связке с ORM Sequelize на node js. Задокументируем API с помощью SWAGER nest js. По итогу обернем приложение на node js в docker и docker compose.
+Backend разработка. Backend для начинающих. Продвинутый backend. Backend уроки. Backend на Javascript. 
