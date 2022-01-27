@@ -17,3 +17,7 @@ npm i @nestjs/config
 npm i cross-env
 
 npm i @nestjs/swagger swagger-ui-express
+
+nest generate module roles
+nest generate controller roles
+nest generate service roles
