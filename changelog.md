@@ -21,3 +21,9 @@ npm i @nestjs/swagger swagger-ui-express
 nest generate module roles
 nest generate controller roles
 nest generate service roles
+
+npm i @nestjs/jwt bcryptjs
+npm i --save-dev @types/bcryptjs
+nest generate module auth
+nest generate controller auth
+nest generate service auth
