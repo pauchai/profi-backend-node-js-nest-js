@@ -27,3 +27,5 @@ npm i --save-dev @types/bcryptjs
 nest generate module auth
 nest generate controller auth
 nest generate service auth
+
+npm i class-validator class-transform
