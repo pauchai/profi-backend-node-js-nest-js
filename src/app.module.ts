@@ -6,7 +6,11 @@ import { User } from "./users/users.model";
 import { RolesModule } from './roles/roles.module';
 import { Role } from "./roles/roles.model";
 import { UserRoles } from "./roles/user-roles.model";
+import { Post } from "./posts/posts.model";
+
 import { AuthModule } from './auth/auth.module';
+import { PostsModule } from './posts/posts.module';
+import { FilesModule } from './files/files.module';
 
 @Module({
     controllers: [],
@@ -22,13 +26,15 @@ import { AuthModule } from './auth/auth.module';
             username: process.env.POSTGRES_USER,
             password: process.env.POSTGRES_PASSWORD,
             database: 'nest-course',
-            models: [User, Role, UserRoles],
+            models: [User, Role, UserRoles, Post],
             autoLoadModels: true
 
         }),
         UsersModule,
         RolesModule,
-        AuthModule
+        AuthModule,
+        PostsModule,
+        FilesModule
     ]
 })
 export class AppModule{}

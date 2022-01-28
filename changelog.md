@@ -32,3 +32,9 @@ npm i class-validator class-transform
 validation for createUser 
 
 validation for addRoleUser
+
+Post module
+nest generate module posts
+nest generate service posts
+nest generate controller posts
+
