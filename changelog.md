@@ -38,3 +38,7 @@ nest generate module posts
 nest generate service posts
 nest generate controller posts
 
+Dockerfile
+docker-compose.yml
+docker-compose build
+docker-compose up
